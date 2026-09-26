@@ -63,6 +63,9 @@ namespace ConsoleApp1
                 {
                     torres.Add("Torre Defensa");
                     Console.WriteLine("Compraste una Torre de defensa");
+
+                    TowerDefense Defensa = new TowerDefense("Torre de defensa", 15, 0);
+
                 }
                 else if (opcion == 2)
                 {
