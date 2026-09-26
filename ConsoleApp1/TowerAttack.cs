@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Towers : Enemy
+    internal class TowerAttack : Enemy
     {
-        public Towers(string name, int life, int damage) : base(name, life, damage)
+        public TowerAttack(string name, int life, int damage) : base(name, life, damage)
         {
         }
 
