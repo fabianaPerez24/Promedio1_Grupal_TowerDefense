@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class MoneyTower : Enemy
+    internal class MoneyTower : TowerDefense
     {
-        public MoneyTower(string name, int life, int damage) : base(name, life, damage)
+        public int Money {  get; set; }
+        public MoneyTower(string name, int life, int damage, int money) : base(name, life, damage)
         {
-
+            Money = money;
         }
     }
 }
