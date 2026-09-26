@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class MoneyTower : TowerDefense
+    internal class MoneyTower : Towers
     {
         public int Money {  get; set; }
         public MoneyTower(string name, int life, int damage, int money) : base(name, life, damage)
