@@ -43,9 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Character.cs" />
     <Compile Include="Decisiones.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="EnemySpawn.cs" />
+    <Compile Include="Interface_life.cs" />
+    <Compile Include="MoneyTower.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.cs" />
+    <Compile Include="TowerAttack.cs" />
+    <Compile Include="TowerDefense.cs" />
+    <Compile Include="Towers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
